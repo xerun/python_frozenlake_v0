@@ -32,7 +32,7 @@ A bar graph is used to represent the success and fail of the agent of getting th
 
 If the agent takes a fixed path and goes Down, Down, Right, Right, Down, Right always then it has a success rate of 0.7% to get the frisbee.
 
-https://github.com/xerun/python_frozenlake_v0/blob/master/manual.png
+![Image 1](https://github.com/xerun/python_frozenlake_v0/blob/master/manual.png)
 
 ## Chose best path
 
@@ -61,7 +61,7 @@ If we compare the graph of Section 2 and 3, we can see that the success rate in 
 
 The function is not injective because different position might have same action so it is many to one and it is not surjective because every position does not match with every action.
 
-https://github.com/xerun/python_frozenlake_v0/blob/master/chose_best_path.py
+![Image 2](https://github.com/xerun/python_frozenlake_v0/blob/master/chose_best_path.py)
 
 ## Best path from any location
 
@@ -81,4 +81,4 @@ A line graph is created using the data with performance which is the number of s
 
 The performance increases as the alpha value increases, it reaches the maximum number of success (performance) which is 40 for the alpha value 0.8 it again decreases to 27 for alpha 0.9 and finally reaches to 35 at 1.0 alpha. The lowest success is at alpha 0.0 of 3 success.
 
-https://github.com/xerun/python_frozenlake_v0/blob/master/best_location_path.png
+![Image 3](https://github.com/xerun/python_frozenlake_v0/blob/master/best_location_path.png)
