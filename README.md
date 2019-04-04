@@ -61,15 +61,15 @@ The function is not injective because different position might have same action 
 
 ## Best path from any location
 
-The f and h functions are used in section 5 which are defined in section 3 and 4 to find the performance for a range of alpha between 0 and 1.
+The next_step() and next_set_of_steps() functions are used in section 5 which are defined in section 3 and 4 to find the performance for a range of alpha between 0 and 1.
 
-The probability function which takes the position of the agent in the lake and the array of range between 0 and 1 for alpha, is used to determine the performance against alpha.
+The probability() function which takes the position of the agent in the lake and the array of range between 0 and 1 for alpha, is used to determine the performance against alpha.
 
 The numpy.random.choice inside the probability function takes a range between 0 and 1, and a probability of alpha and 1-alpha. For each alpha in the range it will take a probability of alpha and 1-alpha, i.e. for 0.2 it will have a probability of 0.2 and 0.8, and for 1 it will have 1 and 0.
 
-If the numpy.random.choice returns value 0 then "f" function will be called which will run each step one by one until it reaches the frisbee or falls in hole.
+If the numpy.random.choice returns value 0 then "next_step()" function will be called which will run each step one by one until it reaches the frisbee or falls in hole.
 
-If it returns 1 then "h" function is called which will return the list of steps needed to reach the frisbee from the current position.
+If it returns 1 then "next_set_of_steps()" function is called which will return the list of steps needed to reach the frisbee from the current position.
 
 The probability function will count the number of success for each 1000 episodes for each alpha between 0 and 1 and which increases by 0.1. Success count of each alpha is stored in the dictionary and returned at the end.
 
