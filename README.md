@@ -61,7 +61,7 @@ If we compare the graph of Section 2 and 3, we can see that the success rate in 
 
 The function is not injective because different position might have same action so it is many to one and it is not surjective because every position does not match with every action.
 
-![Image 2](https://github.com/xerun/python_frozenlake_v0/blob/master/chose_best_path.py)
+![Image 2](https://github.com/xerun/python_frozenlake_v0/blob/master/best_path.png)
 
 ## Best path from any location
 
