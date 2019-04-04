@@ -1,4 +1,4 @@
-# Frozen Lake Problem
+# Re-informant learning technique (Frozen Lake v0)
 The Frozen Lake environment is a 4×4 grid which contain four possible areas; Safe (S), Frozen (F), Hole (H) and Goal (G).
 
 The agent in the environment has four possible moves Up, Down, Left and Right. Q-Learning which is a re-informant learning technique, will be used here. This environment will allow the agent to move accordingly. Random movement can occur at anything in any action like the agent is slipping in different directions because it is hard to walk on a frozen surface.
